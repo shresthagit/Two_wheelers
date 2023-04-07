@@ -1,0 +1,61 @@
+*{
+	padding: 0px;
+	height-top: 0px;
+}
+p{
+font-size: 25px;
+color: white;
+}
+body{
+	background-image:url(../Pictures/1.jpeg);
+	background-size: cover;
+	background-attachment: fixed;
+	border-radius: 10px;
+    }
+.Main{
+	margin:25px;
+	top: 20px;
+	position: fixed;
+	}
+.A{
+	background-color: transparent;
+	text-align: center;
+	width: 40%;
+	height: 20%;
+	padding: 40px;
+	margin: 100px auto;
+	font-family: "Times New Roman";
+	position: absolute;
+	left: 600px;
+	top:50px;
+}
+a{
+   color: yellow;
+	font-family: Arial;
+	font-size: 25px;
+	text-decoration: none;
+	padding: 7px;
+	top: 40px;
+	transition: 0.6s ease;
+}
+a:hover{
+	background-color: gold;
+}
+.back a{
+	margin-left: 1200px;
+	font-color:white;
+}
+ .A .a{
+	font-size: 20px;
+	font-style: italic; 
+	text-align: justify;
+}
+.A h1{
+	font-size: 40px;
+	font-style: bold;
+	color: white;
+}
+.back{
+	margin:0px;
+	padding:0px;
+}

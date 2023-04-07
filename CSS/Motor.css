@@ -1,0 +1,45 @@
+*{
+	padding: 0px;
+	margin: 0px;
+}
+.main{
+	margin-top: 2px;
+	height: 700px;
+	width: 100%;
+	background-color: black;
+}
+a{
+	margin-left: 0px;
+	font-size: 24px;
+}
+.main h1{
+	color: green;
+	margin-left: 500px;
+}
+main a{
+	top: 2px;
+	margin-left: 700px;
+	font-size: 40px;
+	text-decoration: none;
+}
+img{
+	margin-left: 250px;
+}
+.second{
+	background-image: url(../Pictures/42.jpg);
+	background-attachment: fixed;
+	height: 2000px;
+}
+.second h1{
+	color: Yellow;
+	margin-left: 50px;
+	text-align: center;
+}
+.second p{
+	color: yellow;
+	margin-left: 250px;
+	margin-right: 250px;
+	font-family: Ariel;
+	font-size: 24px;
+	text-align: center;
+}

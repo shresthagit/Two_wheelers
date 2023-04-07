@@ -1,0 +1,76 @@
+*{
+	padding: 0px;
+	margin: 0px;
+}
+body{
+	background-image: url(../Pictures/suzuli.jpg);
+	background-size: cover;
+	background-attachment: fixed;
+	border-radius: 10px;
+}
+a{
+	color: yellow;
+	font-style: bold;
+	font-family: Arial;
+	font-size: 25px;
+	text-decoration: none;
+	padding: 7px;
+	top: 10px;
+	transition:0.6s ease;
+}
+a:hover{
+	background-color: gold;
+	   }
+legend{
+	color: gold;
+	margin-left: 500px;
+	  }
+label{
+	color:white;
+	 }
+.Main{
+	margin:25px;
+	top: 10px;
+	position: relative;
+ }
+.Second{
+	height: 740px;
+	width: 700px;
+	margin-left: 600px;
+	border:2px solid green;
+	height: 750px;
+}
+fieldset{
+	display: inline-block;
+	margin-left: 25px;
+	height: 750px;
+
+}
+
+
+input[type="text"],input[type="email"],input[type="number"]{
+	height: 30px;
+	background-color: black;
+	color:white;
+	width: 640px;
+	margin-bottom: 10px;
+	left: 500px;
+	border-radius: 10px;
+}
+
+label{
+	margin-left: 250px;
+	text-align:center;
+	font-size: 25px;
+	font-weight:1000px;
+	color: white;
+}
+input[type="submit"]{
+	cursor: pointer;
+	height: 40px;
+	width: 100px;
+}
+input[type="submit"]:hover{
+	background-color: green();
+
+}

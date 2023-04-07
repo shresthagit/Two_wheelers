@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Sell Us</title>
+  <meta name="viewport" content="width=device-width, initial-scale="1.0">
+   <link rel="stylesheet" type="text/css" href="CSS/SellUs.css">
+</head>
+<body>
+	<div class="Main">
+	<a href="home.html">
+		 Home</a>
+	<a href="Inventory.html">
+		Inventory</a>
+	<a href="Images.html">
+		Images</a>
+	<a href="Sell Us.html">
+		Sell Us</a>
+	<a href="Buy.html">
+		Buy</a>
+   </div><hr>
+   <div class="Second"><form name="frm">
+   	<form  enctype="multipart/form1.data" name="filename" accept=""></form>
+   		<fieldset>
+   			<legend>Fill Your Bike Details</legend>
+   			<label> Your Name</label><br>
+   			<input type="text" name="Name" placeholder="Name"><br>
+   			<label>Email</label><br>
+   			<input type="Email" name="Email" placeholder="Type your Email Address "><br>
+   			<label>Model</label><br>
+   			<input type="text" name="model" placeholder="Bike Model"><br>
+   			<label>Year Of Registration</label><br>
+   			<input type="number" name="yor" placeholder="Your of Registration"><br>
+   			<label>KMs Done</label><br>
+   			<input type="Number" name="KMD" placeholder="Kilometer Done"><br>
+   			<label>Phone Number</label><br>
+   			<input type="number" name="number" placeholder="Phone number"><br>
+   			<label>Bike name</label><br>
+   			<input type="text" name="bikename" placeholder="Bike name"><br>
+   			<label>Year Of Manufacture</label><br>
+   			<input type="number" name="yearofmanufacture" placeholder="Year Of Manaufacture"><br>
+   				<label>Expected Price</label><br>
+   				<input type="number" name="price" placeholder="Expected Pricein Rs."> <br>  
+               <input type="file" name="fileupload" accept="image/*"><br><br>  
+             <input type="submit" name="submit" value="Submit" onclick="Validation()"> 
+        </fieldset>
+    </form>
+    </div>
+    <script type="text/javascript">
+      function Validation(){
+        user=document.frm.Name.value;
+        email=document.frm.Email.value;
+        model=document.frm.model.value;
+        YOR=document.frm.yor.value;
+        kms=document.frm.KMD.value;
+        number=document.frm.number.value;
+        bname=document.frm.bikename.value;
+        YOM=document.frm.yearofmanufacture.value;
+        Expected=document.frm.price.value;
+        if(user==" "){
+          alert("Important field are left empty");
+          return false;
+        }
+        else if(email==" "){
+          alert("Important field are left empty");
+          return false;
+        }
+        else if(email==" "){
+          alert("Important field are left empty");
+          return false;
+        }
+      }
+    </script>
+</body>
+</html>
